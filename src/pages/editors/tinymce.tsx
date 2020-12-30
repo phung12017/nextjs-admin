@@ -12,7 +12,7 @@ export default function TinyMCE() {
   
 
   useEffect(()=>{
-    const result = localStorage.getItem('content')
+    let  result : any  = localStorage.getItem('content')
     setContent(result)
     
   })
